@@ -70,7 +70,7 @@ function hourCheck() {
     var currentTime = moment().hours();
     // looping over time blocks
     $(".timeblock").each(function() {
-        var blockTime = parseInt(($this).toLocaleString("id").split("-")[1]);
+        var blockTime = parseInt($(this).toLocaleString("id").split("-")[1]);
     if (blockTime < currentTime){
         $(this).addClass("past");
     } else if (blockTime === currentTime) {
