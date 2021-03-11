@@ -85,3 +85,32 @@ function hourCheck() {
 }
 
 hourCheck();
+
+// Get Items save from local storage
+$(document).ready(function() {
+    document.getElementById("textarea9").value = JSON.parse(localStorage.getItem("content9"));
+});
+$(document).ready(function() {
+    document.getElementById("textarea10").value = JSON.parse(localStorage.getItem("content10"));
+});
+$(document).ready(function() {
+    document.getElementById("textarea11").value = JSON.parse(localStorage.getItem("content11"));
+});
+$(document).ready(function() {
+    document.getElementById("textarea12").value = JSON.parse(localStorage.getItem("content12"));
+});
+$(document).ready(function() {
+    document.getElementById("textarea13").value = JSON.parse(localStorage.getItem("content13"));
+});
+$(document).ready(function() {
+    document.getElementById("textarea14").value = JSON.parse(localStorage.getItem("content14"));
+});
+$(document).ready(function() {
+    document.getElementById("textarea15").value = JSON.parse(localStorage.getItem("content15"));
+});
+$(document).ready(function() {
+    document.getElementById("textarea16").value = JSON.parse(localStorage.getItem("content16"));
+});
+$(document).ready(function() {
+    document.getElementById("textarea17").value = JSON.parse(localStorage.getItem("content17"));
+});
